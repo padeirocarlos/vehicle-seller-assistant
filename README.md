@@ -48,7 +48,7 @@ Before you begin, ensure you have the following installed:
 
 **⚠️ Important Note**: If you enable tracing by setting `LANGCHAIN_TRACING_V2=true`, you must have a valid LangSmith API key set in `LANGCHAIN_API_KEY`. Without a valid API key, the application will throw an error. If you don't need tracing, simply remove or comment out these environment variables.
 
-| Variable | Description | Required |
+| Variable (.env)| Description | Required |
 |----------|-------------|----------|
 | `OPENAI_API_KEY` | Your OpenAI API key for LLM access | ⚪ |
 | `GEMINI_API_KEY` | Your Gemini API key for LLM access | ⚪ |
@@ -70,7 +70,6 @@ Before you begin, ensure you have the following installed:
 | 🖥️ **Frontend** | Gradio | Web application framework |
 | 🧠 **AI Framework** | LangChain 🦜🔗 | Orchestrates the AI pipeline |
 | 🔍 **OpenAI** | OpenAI Agent framework | Professional profile scraping |
-| 🐦 **Twitter Data** | Twitter API | Social media content analysis |
 | 🌐 **Ollama** | Local LLM Server | Enhanced use of LLM local |
 | 🤖 **LLM** | Ollama3, Ollama3.2, Qwen3, Quen2.5 coder | Powers the conversation generation |
 | 📊 **Monitoring** | LangSmith | Optional tracing and debugging |
